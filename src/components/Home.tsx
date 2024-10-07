@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <div>
-      <h1>Welcome buddy</h1>
+      <h1>Welcome to our program </h1>
         <ul>
             <li><Link to={'/lazy'}>Lazy Loading </Link></li>
             <li><Link to={'/customhook'}>usePageBottom </Link></li>
