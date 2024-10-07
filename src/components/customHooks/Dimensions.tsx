@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 
-/* Instruction
- Create a custom hook to track the dimensions of users window while resizing.*/
 
 function useWindowDimensions() {
   const [windowDimensions, setWindowDimensions] = useState({
